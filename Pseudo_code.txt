@@ -1,0 +1,34 @@
+// Main 
+Begin main
+    Declare integer variable n
+    Get input from user 
+    store in var n	
+	If n is negative value Then
+		Print "Enter a positive number 
+		Get input from User
+		store in var n
+	EndIf
+    Set pid = fork()
+
+    If pid == 0 Then
+	print PID and PPID
+        Call fibonacci(n)           // Child process
+    Else If pid > 0 Then
+	print PID
+        Wait for child to finish    // Parent process
+    Else
+        Print "Cannot create child process"
+    EndIf	
+End main
+
+//function for fibonacci 
+Begin fibonacci(n)
+    Initialize a = 0, b = 1
+    For i = 0 to n - 1
+        Print a
+        Set c = a + b
+        Set a = b
+        Set b = c
+End fibonacci
+
+		
