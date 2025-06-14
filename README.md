@@ -43,8 +43,8 @@ A C program demonstrating Linux process management where:
 
 ### Clone the repository
 ```bash
-git clone https://github.com/yourusername/linux-process-fibonacci.git
-cd linux-process-fibonacci
+git clone https://github.com/DilshanOUSL1/fibonacci_fork
+cd fibonacci_fork
 ```
 
 ### Compile the program
@@ -54,14 +54,16 @@ gcc fibonacci_fork.c -o fibonacci
 
 ### Run the program
 ```bash
-./fibonacci <number_of_terms>
+./fibonacci
 ```
 
 ### Example (generates first 5 Fibonacci numbers)
 ```bash
 ./fibonacci
 ```
-
+```text
+Enter the number of Fibbancci terms: 5
+```
 ---
 
 ## ✅ Expected Output
@@ -82,6 +84,7 @@ Child process 1235 has completed.
 .
 ├── fibonacci_fork.c    # Main program source
 ├── README.md           # This instruction file
+└── Pseudo_code.txt     # Optional
 ```
 
 ---
