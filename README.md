@@ -14,10 +14,10 @@ A C program demonstrating Linux process management where:
 ### For Linux/Unix/macOS:
 ```bash
 	# Debian/Ubuntu
-		1.sudo apt-get update 
-		2.sudo apt-get install gcc # Debian/Ubuntu
+          1.sudo apt-get update 
+	  2.sudo apt-get install gcc # Debian/Ubuntu
 	# macOS
-	brew install gcc git                                 
+	  brew install gcc git                                 
 ```
 
 ### For Windows:
