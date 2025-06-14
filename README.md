@@ -61,6 +61,7 @@ gcc fibonacci_fork.c -o fibonacci
 ```bash
 ./fibonacci
 ```
+### Enter the number of terms need (Here example 5)
 ```text
 Enter the number of Fibbancci terms: 5
 ```
